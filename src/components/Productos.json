@@ -1,0 +1,76 @@
+
+
+[
+    {
+        "id": 1,
+        "nombre": "Kirby - Nintendo Switch",
+        "precio": 20000,
+        "descripcion": "insertar descripcion",
+        "img": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000002365/959d01b3ef73bb4dd663bd39df343558368fa8453a157e53084e798dedb426cc",
+        "category": "juegos",
+        "stock": 15
+    },
+    {
+        "id": 2,
+        "nombre": "Star Wars JEDI Fallen the Fallen Order - PS5",
+        "precio": 28000,
+        "descripcion": "insertar descripcion",
+        "img": "https://image.api.playstation.com/vulcan/img/rnd/202105/1714/DdZ8jYtUn7nIuqLqT3sENC9T.jpg?w=620&thumb=false",
+        "category": "juegos",
+        "stock": 18
+    },
+    {
+        "id": 3,
+        "nombre": "Dead and Cells - Nintendo Switch",
+        "precio": 21000,
+        "descripcion": "insertar descripcion",
+        "img": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DeadCells_image1600w.jpg",
+        "category": "juegos",
+        "stock": 25
+    },
+    {
+        "id": 4,
+        "nombre": "Parlante JBL",
+        "precio": 328999 ,
+        "descripcion": "Altavoz portátil resistente al agua con batería integrada",
+        "img": "https://www.jbl.com.ar/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw4879c9ab/JBL_CHARGE5_HERO_BLUE_0038_x3.jpg?sw=270&sh=330&sm=fit&sfrm=png",
+        "category": "audio",
+        "stock": 8
+    },
+    {
+        "id": 5,
+        "nombre": "JBL Go Essential",
+        "precio": 60000 ,
+        "descripcion": "Altavoz portátil a prueba de agua",
+        "img": "https://www.jbl.com.ar/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw865d7d8b/JBL_GO_ESSENTIAL_HERO_RED_31561_x1.jpg?sw=270&sh=330&sm=fit&sfrm=png",
+        "category": "audio",
+        "stock": 5
+    },
+    {
+        "id": 6,
+        "nombre": "Lámpara de botones de PlayStation",
+        "precio": 7859 ,
+        "descripcion": "Material : 50% PVC 50% Vinilo",
+        "img": "https://static1.funidelia.com/141529-f6_list/lampara-de-botones-de-playstation.jpg",
+        "category": "mercancia",
+        "stock": 22
+    },
+    {
+        "id": 7,
+        "nombre": "Silla Gamer XTech SpiderMan - Miles Morales",
+        "precio": 179298 ,
+        "descripcion": "Silla para gamers edición Spider- Man Miles Morales, para que disfrutes durante horas de tus videojuegos favoritos",
+        "img": "https://www.cdmarket.com.ar/image/0/600_750-descarga_(8).png",
+        "category": "mercancia",
+        "stock": 10
+    },
+    {
+        "id": 8,
+        "nombre": "Coleccionable Play Arts Kai Final Fantasy XV - PROMPTO",
+        "precio": 90999 ,
+        "descripcion": "Replica perfectamente la imagen del juego, desde la texturars y colores de su ropa hasta los detalles de los parches y costuras.Partes flexibles permiten recrear poses del juego.Incluye base de display y manos intercambiables.Medida: 28cm de altura (aprox)",
+        "img": "https://www.cdmarket.com.ar/image/0/600_750-SQUARE-ENIX-FINAL-FANTASY-XV-PROMPTO-PLAY-ARTS-KAI-ACTION-FIGURE.jpg",
+        "category": "mercancia",
+        "stock": 3
+    }
+]

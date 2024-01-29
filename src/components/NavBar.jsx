@@ -1,5 +1,6 @@
 import Logo from "./Logo";
 import CartWidget from "./cartWidget";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -10,20 +11,25 @@ const NavBar = () => {
         </div>
         <div className="col-md-9 d-flex justify-content-center align-items-center ">
           <ul className="nav">
+          <li className="nav-item">
+              <NavLink className="nav-link text-dark fs-5" to={"/"}>
+                Productos
+              </NavLink>
+            </li>
             <li className="nav-item">
-              <a className="nav-link text-dark fs-5" href="#">
+              <NavLink className="nav-link text-dark fs-5" to={"/category/audio"}>
                 Audio
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark fs-5" href="#">
+              <NavLink className="nav-link text-dark fs-5" to={"/category/juegos"}>
                 Juegos
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark fs-5" href="#">
+              <NavLink className="nav-link text-dark fs-5" to={"/category/mercancia"}>
                 Mercancia
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

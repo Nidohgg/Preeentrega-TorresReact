@@ -9,7 +9,7 @@ const Noticia = () =>{
                     Muchos de estos lógicamente son reconocidos por los estudios algunos como second party y otros dentro de Playstation Studios pero seguramente cuando avance el año tendremos nuevos anuncios más añadirlos quedando un año bastante bueno y mejor de lo que pensabamos.</p>
                 </div>
                 <div className="col-md-6 py-3 d-flex align-items-center justify-content-end">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/QKPahay-yv0?si=sy55p-ZGho6OubW5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QKPahay-yv0?si=sy55p-ZGho6OubW5" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
             </div>
         </div>
