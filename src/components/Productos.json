@@ -42,8 +42,8 @@
         "nombre": "JBL Go Essential",
         "precio": 60000 ,
         "descripcion": "Altavoz portátil a prueba de agua",
-        "img": "https://www.jbl.com.ar/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw865d7d8b/JBL_GO_ESSENTIAL_HERO_RED_31561_x1.jpg?sw=270&sh=330&sm=fit&sfrm=png",
-        "category": "audio",
+        "img": "[https://www.jbl.com.ar/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw865d7d8b/JBL_GO_ESSENTIAL_HERO_RED_31561_x1.jpg?sw=270&sh=330&sm=fit&sfrm=png",
+        "c]ategory": "audio",
         "stock": 5
     },
     {

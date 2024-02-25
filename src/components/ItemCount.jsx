@@ -1,9 +1,11 @@
 import { useEffect } from "react";
 import { useState } from "react"
+import { Link } from "react-router-dom";
 
-const ItemCount = ({stock}) => {//stock representaria la cantidad de productos que quedan
+const ItemCount = ({stock, onAdd}) => {//stock representaria la cantidad de productos que quedan
     const [contador, setContador] = useState(1);//Estado para manejar el contador de productos
     const [ItemStock, setItemStock] = useState(stock);
+    const [itemAdd, setItemAdd] = useState(false);
 
     const incrementar = () => {
         if(contador < ItemStock){
@@ -17,11 +19,13 @@ const ItemCount = ({stock}) => {//stock representaria la cantidad de productos q
         }
     }
 
-    const onAdd = () => {
+    const agregarAlCarrito = () => {
         if (contador <= ItemStock){
             setItemStock(ItemStock - contador);
             setContador(1); //Reinicia el contador en uno
-            console.log("Agregaste " + contador + " productos al carrito. Quedan " + (ItemStock - contador) + "productos disponibles.");
+            onAdd(contador);
+            setItemAdd(true);
+            //console.log("Agregaste " + contador + " productos al carrito. Quedan " + (ItemStock - contador) + "productos disponibles.");
         }
     }
 
@@ -42,7 +46,7 @@ const ItemCount = ({stock}) => {//stock representaria la cantidad de productos q
             </div>
             <div className="row my-1">
                 <div className="col-m-3">
-                    <button type="button" className="btn btn-danger" onClick={onAdd}>Agregar al Carrito</button>
+                    {itemAdd ? <Link to={"/cart"} className="btn btn-danger">Terminar Compra</Link> : <button type="button" className="btn btn-danger" onClick={agregarAlCarrito}>Agregar al Carrito</button>}
                 </div>
             </div>
             
