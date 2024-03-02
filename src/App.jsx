@@ -1,6 +1,5 @@
 import { useState } from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import catag from "./components/Productos.json";
 import NavBar from "./components/NavBar";
 import Noticia from "./components/Noticia";
 import PreFooter from "./components/PreFooter";
@@ -24,7 +23,7 @@ function App() {
         <NavBar/>
         
         <Routes>
-          <Route  path={"/"} element={<ItemListContainer catalogo={catag} />}/>
+          <Route  path={"/"} element={<ItemListContainer/>}/>
           <Route  path={"/category/:id"} element={<ItemListContainer />}/>
           <Route  path={"/item/:id"} element={<ItemDetailContainer />}/>
           <Route  path={"/cart"} element={< Cart/>}/>

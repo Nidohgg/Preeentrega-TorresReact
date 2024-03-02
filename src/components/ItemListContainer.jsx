@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import ItemList from "./ItemList";
-import ItemDetailContainer from "./ItemDetailContainer";
 import { collection, getDocs, getFirestore, addDoc, query, where} from "firebase/firestore"
 import { useParams } from "react-router-dom";
 import Loading from "./Loanding";
